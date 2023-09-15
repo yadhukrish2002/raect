@@ -20,7 +20,6 @@ class App extends Component {
     return (
       <div className="App">
         <Auth />
-        <p className="App-intro">{this.state.apiResponse}</p>
       </div>
     );
   }
