@@ -1,3 +1,7 @@
+*{
+  align-content: center;
+  align-items: center;
+}
 .App {
   text-align: center;
 }

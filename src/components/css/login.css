@@ -1,0 +1,84 @@
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding-top:20px ;
+    box-sizing: border-box;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #cacfd0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #b75a5a;
+}
+
+/* Style the form container */
+.auth {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #888787;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels and inputs */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+input[type="Email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #a5ccf5;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button[type="submit"]:hover {
+    background-color: #4689d1;
+
+}
+
+button[type="link"] {
+    background-color: #888787;
+    color: #004084;
+    border: none;
+    padding:none;
+    cursor: pointer;
+    border-radius:none;
+}
+/* Make the form responsive */
+@media screen and (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+
+    input[type="Email"],
+    input[type="password"] {
+        margin-bottom: 10px;
+    }
+}
